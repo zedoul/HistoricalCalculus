@@ -1,6 +1,6 @@
 Dataset
 ========
-![USCPI](https://raw.githubusercontent.com/zedoul/HistoricCalculus/master/histcalc/data/USCPI.png)
+![USCPI](https://raw.githubusercontent.com/zedoul/HistoricalCalculus/master/histcalc/data/USCPI.png)
 
 References
 ========
