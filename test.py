@@ -24,7 +24,8 @@ def JP_measure(amount, fromyear, toyear):
     def price(x): return '%1.2f'%x
     print "real price based on CPI is " + str(price(d1)) + "¥"
 
+#print "===================================="
+#UK_measure(14, 1878, 2013)
 print "===================================="
-UK_measure(14, 1878, 2013)
-print "===================================="
-JP_measure(10, 1923, 2011)
+JP_measure(20, 1923, 2011)
+
