@@ -76,7 +76,7 @@ datasets = {
 "ylabel":"Population(in thousands)",
 "url":dataurl+"ukgdp/export.php?year_source=1830&year_result=2013&use[]=GDPC&use[]=GDPK&use[]=DEFIND&use[]=POP&use[]=GDPCP&use[]=GDPKP"},
 
-"UK_NominalGDP":{
+"UK_GDPCapita":{
 "file":"UKGDP.csv",
 "header":["Year","Nominal GDP per capita (current pounds)"],
 "size":184,
@@ -142,6 +142,28 @@ datasets = {
 "from":1879,
 "to":2011,
 "ylabel":"Consumer Price Index (index year 2000 = 100,000)",
+"url":dataurl+"japandata/export.php?year_source=1879&year_result=2011&use[]=NOMGDP&use[]=REALGDP&use[]=DEFLATOR&use[]=GDPPC&use[]=RGDPPC&use[]=POPULATION&use[]=CPI&use[]=AVEWAGE"},
+
+"JP_NGDP":{
+"file":"JPGDP.csv",
+"header":["Year","Nominal GDP (billions of yen)"],
+"size":133,
+"title":"Nominal GDP (billions of yen) of Japan, 1879 to 2011",
+"xlabel":"Year",
+"from":1879,
+"to":2011,
+"ylabel":"Nominal GDP (billions of yen)",
+"url":dataurl+"japandata/export.php?year_source=1879&year_result=2011&use[]=NOMGDP&use[]=REALGDP&use[]=DEFLATOR&use[]=GDPPC&use[]=RGDPPC&use[]=POPULATION&use[]=CPI&use[]=AVEWAGE"},
+
+"JP_GDPCapita":{
+"file":"JPGDP.csv",
+"header":["Year","Nominal GDP per Capita (thousands of yen)"],
+"size":133,
+"title":"Nominal GDP per Capita (thousands of yen) of Japan, 1879 to 2011",
+"xlabel":"Year",
+"from":1879,
+"to":2011,
+"ylabel":"Nominal GDP per Capita (thousands of yen)",
 "url":dataurl+"japandata/export.php?year_source=1879&year_result=2011&use[]=NOMGDP&use[]=REALGDP&use[]=DEFLATOR&use[]=GDPPC&use[]=RGDPPC&use[]=POPULATION&use[]=CPI&use[]=AVEWAGE"},
 
 }
