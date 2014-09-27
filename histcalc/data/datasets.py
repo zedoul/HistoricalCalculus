@@ -107,7 +107,7 @@ datasets = {
 "xlabel":"Year",
 "from":1209,
 "to":2013,
-"ylabel":"CPI",
+"ylabel":"Retail Price Index (2010 = 100)",
 "url":dataurl+"ukearncpi/export.php?year_source=1209&year_result=2013&use[]=CPI&use[]=NOMINALEARN&use[]=REALEARN"},
 
 "UK_AANE":{
@@ -118,7 +118,7 @@ datasets = {
 "xlabel":"Year",
 "from":1209,
 "to":2013,
-"ylabel":"CPI",
+"ylabel":"Average Annual Nominal Earnings (2010 = 100)",
 "url":dataurl+"ukearncpi/export.php?year_source=1209&year_result=2013&use[]=CPI&use[]=NOMINALEARN&use[]=REALEARN"},
 
 "UK_AARE":{
@@ -129,7 +129,7 @@ datasets = {
 "xlabel":"Year",
 "from":1209,
 "to":2013,
-"ylabel":"CPI",
+"ylabel":"Average Annual Real Earnings (2010 = 100)",
 "url":dataurl+"ukearncpi/export.php?year_source=1209&year_result=2013&use[]=CPI&use[]=NOMINALEARN&use[]=REALEARN"},
 
 # Japan

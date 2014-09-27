@@ -9,23 +9,7 @@ from datasets import datasets
 
 def generate_plots(key, dataset, log=False):
     df = data.load_dataframe(dataset)
-    df = df[dataset["header"]]
-    quotes = []
-    for row in df.iterrows():
-        quotes.append([int(row[1][0]),row[1][1]])
-    
-    if len(quotes) == 0:
-        raise SystemExit
-    
-    dates = [int(q[0]) for q in quotes]
-    values = [float(str(q[1]).replace(',','')) for q in quotes]
-
-    if True == log:
-        for i,d in enumerate(values):
-            if d <= 0.0:
-                values[i] = None
-            else:
-                values[i] = math.log(d)
+    dates, values = data.pick_headers(df, dataset["header"], log)
     
     fig, ax = plt.subplots()
     ax.plot(dates, values, '-')
