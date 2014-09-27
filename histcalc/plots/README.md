@@ -14,7 +14,3 @@ Dataset
 
 ![USCPI](https://raw.githubusercontent.com/zedoul/HistoricalCalculus/master/histcalc/plots/plot_US_CPI.png)
 ![USCPILOG](https://raw.githubusercontent.com/zedoul/HistoricalCalculus/master/histcalc/plots/plot_US_CPI_log.png)
-
-References
-========
-[MeasuringWorth](http://www.measuringworth.com/datasets/uswage/result.php)

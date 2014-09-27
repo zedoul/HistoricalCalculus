@@ -3,9 +3,9 @@
 from histcalc import histcalc
 
 def result(amount, fromyear, toyear):
-    d1 = histcalc.UK_RPI_val(amount, fromyear, toyear)
-    d2 = histcalc.UK_labour_val(amount, fromyear, toyear)
-    d3 = histcalc.UK_income_val(amount, fromyear, toyear)
+    d1 = histcalc.UK_RPI_measure(amount, fromyear, toyear)
+    d2 = histcalc.UK_EarningIndex_measure(amount, fromyear, toyear)
+    d3 = histcalc.UK_GDPperCapita_measure(amount, fromyear, toyear)
 
     print "The price of " + str(amount) + "£ in " + str(fromyear)
     print ""
