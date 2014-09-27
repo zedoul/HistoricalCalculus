@@ -1,9 +1,10 @@
+import os
 import urllib
-from data import datasets
+from datasets import datasets
 
-for key, data in datasets.iteritems():
+for _, data in datasets.iteritems():
     source = data["url"]
     target = data["file"]
-    print "downloading... " + target
-    urllib.urlretrieve(source, target)
-
+    if False == os.path.isfile(target):
+        print "downloading... " + target
+        urllib.urlretrieve(source, target)
