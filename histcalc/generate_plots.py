@@ -4,8 +4,8 @@ import datetime
 from matplotlib import gridspec
 
 import math
-import data
-from datasets import datasets
+from data import data
+from data.datasets import datasets
 
 def generate_plots(key, dataset, log=False):
     df = data.load_dataframe(dataset)
@@ -18,7 +18,7 @@ def generate_plots(key, dataset, log=False):
     ax.autoscale_view()
     
     # format the coords message box
-    def price(x): return '$%1.2f'%x
+    def price(x): return '%1.2f'%x
     ax.fmt_xdata = DateFormatter('%Y')
     ax.fmt_ydata = price
     ax.grid(True)
@@ -30,10 +30,10 @@ def generate_plots(key, dataset, log=False):
 
     if True == log:
         plt.ylabel(dataset['ylabel'] + " logscale")
-        fig.savefig("plot_"+key+"_log.png")
+        fig.savefig("./plots/plot_"+key+"_log.png")
     else :
         plt.ylabel(dataset['ylabel'])
-        fig.savefig("plot_"+key+".png")
+        fig.savefig("./plots/plot_"+key+".png")
     plt.close()
 
 if __name__ == '__main__':

@@ -28,7 +28,7 @@ def pick_headers(dataframe, headers, log=False):
     return dates, values
 
 def load_dataframe(dataset):
-    datafile = "./data/"+dataset["file"]
+    datafile = os.path.dirname(os.path.abspath(__file__))+"/"+dataset["file"]
     assert(os.path.isfile(datafile))
     datasize = dataset["size"]
     df = pd.read_csv(datafile, nrows=datasize)
