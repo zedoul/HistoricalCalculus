@@ -5,15 +5,15 @@ Cost of war
 - Real price based on RPI is 22,742,802.20£
 - 한화 38,593,625,617.58₩
 
-1294 Gascon war : 400,000 pound
--------------------------------
-- Real price based on RPI is 267,952,095.81£
-- 한화 454,703,988,502.99₩
-
 1282 Second welsh war : 120,000 pound
 -------------------------------
 - Real price based on RPI is 80,385,628.74£
 - 한화 136,411,196,550.90₩
+
+1294 Gascon war : 400,000 pound
+-------------------------------
+- Real price based on RPI is 267,952,095.81£
+- 한화 454,703,988,502.99₩
 
 1294-1298 Total sum of expenditure : 750,000 pound
 -------------------------------
