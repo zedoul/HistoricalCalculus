@@ -1,6 +1,6 @@
 Cost of war
 ===========
-1202 Normandy war : 18,500 pound
+1200-1204 Normandy campaigns : 18,500 pound
 --------------------------------
 - Real price based on RPI is 22,742,802.20£
 - 한화 38,593,625,617.58₩
