@@ -7,3 +7,5 @@ References
 [MeasuringWorth](http://www.measuringworth.com/datasets/uswage/result.php)
 
 [Napoleon-series](http://www.napoleon-series.org/research/abstract/miscellaneous/currency/1799/)
+
+[Historicalstatitics.org](http://www.historicalstatistics.org/)

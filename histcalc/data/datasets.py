@@ -31,7 +31,7 @@ datasets = {
 #"url":dataurl+"uswage/export.php?year_source=1774&year_result=2013&use[]=UNSKILLED&use[]=MANCOMP"
 #},
 
-# GDP
+# UK
 "UK_NGDP":{
 "file":"UKGDP.csv",
 "header":["Year","Nominal GDP (million of pounds)"],
@@ -98,7 +98,6 @@ datasets = {
 "ylabel":"Real GDP per capita(2008 pounds)",
 "url":dataurl+"ukgdp/export.php?year_source=1830&year_result=2013&use[]=GDPC&use[]=GDPK&use[]=DEFIND&use[]=POP&use[]=GDPCP&use[]=GDPKP"},
 
-# RPI
 "UK_RPI":{
 "file":"UKRPINAE.csv",
 "header":["Year","Retail Price Index (2010 = 100)"],
