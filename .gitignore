@@ -2,6 +2,9 @@
 *.py[cod]
 *.csv
 
+# Vim
+*.swp
+
 # C extensions
 *.so
 
