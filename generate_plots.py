@@ -1,11 +1,12 @@
+import math
+import datetime
+
 import matplotlib.pyplot as plt
 from matplotlib.dates import YearLocator, MonthLocator, DateFormatter
-import datetime
 from matplotlib import gridspec
 
-import math
-from data import data
-from data.datasets import datasets
+from histcalc.data import data
+from histcalc.data.datasets import datasets
 
 def generate_plots(key, dataset, log=False):
     df = data.load_dataframe(dataset)
